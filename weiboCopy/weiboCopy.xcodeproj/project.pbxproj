@@ -11,6 +11,14 @@
 		217C90F51C1C477B00F65E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217C90F41C1C477B00F65E70 /* Assets.xcassets */; };
 		217C91031C1C477B00F65E70 /* weiboCopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C91021C1C477B00F65E70 /* weiboCopyTests.swift */; };
 		217C910E1C1C477B00F65E70 /* weiboCopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C910D1C1C477B00F65E70 /* weiboCopyUITests.swift */; };
+		21F26CD61C1C71C2000C22E2 /* CHSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CD51C1C71C2000C22E2 /* CHSTabBarController.swift */; };
+		21F26CD81C1C71D3000C22E2 /* CHSNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CD71C1C71D3000C22E2 /* CHSNavController.swift */; };
+		21F26CDA1C1C727A000C22E2 /* CHSHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CD91C1C727A000C22E2 /* CHSHomeController.swift */; };
+		21F26CDC1C1C7289000C22E2 /* CHSDiscoveryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CDB1C1C7289000C22E2 /* CHSDiscoveryController.swift */; };
+		21F26CDE1C1C7294000C22E2 /* CHSTMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CDD1C1C7294000C22E2 /* CHSTMessageController.swift */; };
+		21F26CE01C1C72A1000C22E2 /* CHSTProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CDF1C1C72A1000C22E2 /* CHSTProfileController.swift */; };
+		21F26CE21C1C79B1000C22E2 /* CHSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CE11C1C79B1000C22E2 /* CHSTabBar.swift */; };
+		21F26CE41C1C7CC5000C22E2 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CE31C1C7CC5000C22E2 /* common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,14 @@
 		217C91091C1C477B00F65E70 /* weiboCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		217C910D1C1C477B00F65E70 /* weiboCopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weiboCopyUITests.swift; sourceTree = "<group>"; };
 		217C910F1C1C477B00F65E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F26CD51C1C71C2000C22E2 /* CHSTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSTabBarController.swift; sourceTree = "<group>"; };
+		21F26CD71C1C71D3000C22E2 /* CHSNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSNavController.swift; sourceTree = "<group>"; };
+		21F26CD91C1C727A000C22E2 /* CHSHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSHomeController.swift; sourceTree = "<group>"; };
+		21F26CDB1C1C7289000C22E2 /* CHSDiscoveryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSDiscoveryController.swift; sourceTree = "<group>"; };
+		21F26CDD1C1C7294000C22E2 /* CHSTMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSTMessageController.swift; sourceTree = "<group>"; };
+		21F26CDF1C1C72A1000C22E2 /* CHSTProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSTProfileController.swift; sourceTree = "<group>"; };
+		21F26CE11C1C79B1000C22E2 /* CHSTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSTabBar.swift; sourceTree = "<group>"; };
+		21F26CE31C1C7CC5000C22E2 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +166,7 @@
 		21F7C2551C1C67E1006A11CB /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				21F26CDB1C1C7289000C22E2 /* CHSDiscoveryController.swift */,
 			);
 			path = Discovery;
 			sourceTree = "<group>";
@@ -157,6 +174,7 @@
 		21F7C2561C1C67E1006A11CB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				21F26CD91C1C727A000C22E2 /* CHSHomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -164,6 +182,9 @@
 		21F7C2571C1C67E1006A11CB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				21F26CD51C1C71C2000C22E2 /* CHSTabBarController.swift */,
+				21F26CD71C1C71D3000C22E2 /* CHSNavController.swift */,
+				21F26CE11C1C79B1000C22E2 /* CHSTabBar.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -171,6 +192,7 @@
 		21F7C2581C1C67E1006A11CB /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				21F26CDD1C1C7294000C22E2 /* CHSTMessageController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -178,6 +200,7 @@
 		21F7C2591C1C67E1006A11CB /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				21F26CDF1C1C72A1000C22E2 /* CHSTProfileController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -185,6 +208,7 @@
 		21F7C25A1C1C67E1006A11CB /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				21F26CE31C1C7CC5000C22E2 /* common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -258,6 +282,7 @@
 		217C90E21C1C477B00F65E70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CHS;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "王";
@@ -325,7 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F26CD61C1C71C2000C22E2 /* CHSTabBarController.swift in Sources */,
+				21F26CDA1C1C727A000C22E2 /* CHSHomeController.swift in Sources */,
+				21F26CD81C1C71D3000C22E2 /* CHSNavController.swift in Sources */,
+				21F26CDC1C1C7289000C22E2 /* CHSDiscoveryController.swift in Sources */,
+				21F26CE21C1C79B1000C22E2 /* CHSTabBar.swift in Sources */,
 				217C90EE1C1C477B00F65E70 /* AppDelegate.swift in Sources */,
+				21F26CE01C1C72A1000C22E2 /* CHSTProfileController.swift in Sources */,
+				21F26CDE1C1C7294000C22E2 /* CHSTMessageController.swift in Sources */,
+				21F26CE41C1C7CC5000C22E2 /* common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

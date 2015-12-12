@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        // create a new window and set one keyWindow
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        //keyWindow
+        let tabBarVC = CHSTabBarController()
+        window?.rootViewController = tabBarVC
+        window?.backgroundColor = UIColor.whiteColor()
+        window?.makeKeyAndVisible()
+        
+        
         return true
     }
 
