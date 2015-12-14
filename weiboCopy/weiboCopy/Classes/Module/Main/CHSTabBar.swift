@@ -41,13 +41,13 @@ class CHSTabBar: UITabBar {
         for view in subviews{
             
             if view.isKindOfClass(NSClassFromString("UITabBarButton")!){
-                print(view)
+//                print(view)
                 if index == 2 {
                     composeBtn.frame = CGRectMake(index * w, 0, w, h)
                     index++
 //                    continue
                 }
-                print(index)
+//                print(index)
                 view.frame = CGRectMake(index * w, 0, w, h)
                 index++
 //                print(view.frame)

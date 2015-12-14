@@ -32,9 +32,9 @@ class CHSTabBarController: UITabBarController {
 
         //create childViewController
         addChildViewControllerOneByOne(CHSHomeController(), title: "首页", imageName: "tabbar_home")
-        addChildViewControllerOneByOne(CHSHomeController(), title: "消息", imageName: "tabbar_message_center")
-        addChildViewControllerOneByOne(CHSHomeController(), title: "发现", imageName: "tabbar_discover")
-        addChildViewControllerOneByOne(CHSHomeController(), title: "个人", imageName: "tabbar_profile")
+        addChildViewControllerOneByOne(CHSTMessageController(), title: "消息", imageName: "tabbar_message_center")
+        addChildViewControllerOneByOne(CHSDiscoveryController(), title: "发现", imageName: "tabbar_discover")
+        addChildViewControllerOneByOne(CHSTProfileController(), title: "个人", imageName: "tabbar_profile")
 
         
     }

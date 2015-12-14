@@ -8,11 +8,12 @@
 
 import UIKit
 
-class CHSTProfileController: UITableViewController {
+class CHSTProfileController: CHSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        guestView?.setUpThePages("登录后，你的微博、相册、个人资料会显示在这里，展示给别人", imageNmae: "visitordiscover_image_profile")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

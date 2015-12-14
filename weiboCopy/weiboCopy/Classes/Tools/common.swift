@@ -6,5 +6,7 @@
 //  Copyright © 2015年 王. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
+
+let themeColor = UIColor.orangeColor()

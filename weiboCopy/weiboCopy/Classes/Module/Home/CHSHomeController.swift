@@ -8,16 +8,13 @@
 
 import UIKit
 
-class CHSHomeController: UITableViewController {
+class CHSHomeController: CHSBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        guestView?.setUpThePages("关注一些人，回这里看看有什么惊喜", imageNmae: nil)
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {

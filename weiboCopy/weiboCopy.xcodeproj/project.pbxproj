@@ -19,6 +19,8 @@
 		21F26CE01C1C72A1000C22E2 /* CHSTProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CDF1C1C72A1000C22E2 /* CHSTProfileController.swift */; };
 		21F26CE21C1C79B1000C22E2 /* CHSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CE11C1C79B1000C22E2 /* CHSTabBar.swift */; };
 		21F26CE41C1C7CC5000C22E2 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CE31C1C7CC5000C22E2 /* common.swift */; };
+		21F4121F1C1D89A200E99945 /* CHSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F4121E1C1D89A200E99945 /* CHSBaseViewController.swift */; };
+		21F412251C1D933B00E99945 /* CHSGuestLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F412241C1D933B00E99945 /* CHSGuestLogInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		21F26CDF1C1C72A1000C22E2 /* CHSTProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSTProfileController.swift; sourceTree = "<group>"; };
 		21F26CE11C1C79B1000C22E2 /* CHSTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSTabBar.swift; sourceTree = "<group>"; };
 		21F26CE31C1C7CC5000C22E2 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		21F4121E1C1D89A200E99945 /* CHSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSBaseViewController.swift; sourceTree = "<group>"; };
+		21F412241C1D933B00E99945 /* CHSGuestLogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSGuestLogInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,14 @@
 			path = weiboCopyUITests;
 			sourceTree = "<group>";
 		};
+		21F412211C1D8C5600E99945 /* GuestLogInView */ = {
+			isa = PBXGroup;
+			children = (
+				21F412241C1D933B00E99945 /* CHSGuestLogInView.swift */,
+			);
+			path = GuestLogInView;
+			sourceTree = "<group>";
+		};
 		21F7C2521C1C67E1006A11CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,9 +194,11 @@
 		21F7C2571C1C67E1006A11CB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				21F412211C1D8C5600E99945 /* GuestLogInView */,
 				21F26CD51C1C71C2000C22E2 /* CHSTabBarController.swift */,
 				21F26CD71C1C71D3000C22E2 /* CHSNavController.swift */,
 				21F26CE11C1C79B1000C22E2 /* CHSTabBar.swift */,
+				21F4121E1C1D89A200E99945 /* CHSBaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -350,10 +364,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F412251C1D933B00E99945 /* CHSGuestLogInView.swift in Sources */,
 				21F26CD61C1C71C2000C22E2 /* CHSTabBarController.swift in Sources */,
 				21F26CDA1C1C727A000C22E2 /* CHSHomeController.swift in Sources */,
 				21F26CD81C1C71D3000C22E2 /* CHSNavController.swift in Sources */,
 				21F26CDC1C1C7289000C22E2 /* CHSDiscoveryController.swift in Sources */,
+				21F4121F1C1D89A200E99945 /* CHSBaseViewController.swift in Sources */,
 				21F26CE21C1C79B1000C22E2 /* CHSTabBar.swift in Sources */,
 				217C90EE1C1C477B00F65E70 /* AppDelegate.swift in Sources */,
 				21F26CE01C1C72A1000C22E2 /* CHSTProfileController.swift in Sources */,
