@@ -10,3 +10,4 @@ import UIKit
 
 
 let themeColor = UIColor.orangeColor()
+let callBackURL = "http://www.baidu.com"

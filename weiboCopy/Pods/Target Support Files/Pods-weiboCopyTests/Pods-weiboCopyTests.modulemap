@@ -1,0 +1,6 @@
+framework module Pods_weiboCopyTests {
+  umbrella header "Pods-weiboCopyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0CE2E3044EE5B0E01942A5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20E8F31314D33E5115C176F /* Pods.framework */; };
 		217C90EE1C1C477B00F65E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C90ED1C1C477B00F65E70 /* AppDelegate.swift */; };
 		217C90F51C1C477B00F65E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217C90F41C1C477B00F65E70 /* Assets.xcassets */; };
 		217C91031C1C477B00F65E70 /* weiboCopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C91021C1C477B00F65E70 /* weiboCopyTests.swift */; };
@@ -21,6 +22,9 @@
 		21F26CE41C1C7CC5000C22E2 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F26CE31C1C7CC5000C22E2 /* common.swift */; };
 		21F4121F1C1D89A200E99945 /* CHSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F4121E1C1D89A200E99945 /* CHSBaseViewController.swift */; };
 		21F412251C1D933B00E99945 /* CHSGuestLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F412241C1D933B00E99945 /* CHSGuestLogInView.swift */; };
+		21F535151C1EA10B00FBC14B /* CHSLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F535141C1EA10B00FBC14B /* CHSLogInViewController.swift */; };
+		21F535171C1F03DD00FBC14B /* CHSAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F535161C1F03DD00FBC14B /* CHSAccountInfo.swift */; };
+		21F6A3301C1FC2F600AC2CDE /* CHSUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6A32F1C1FC2F600AC2CDE /* CHSUserAccountViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,12 @@
 		21F26CE31C1C7CC5000C22E2 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		21F4121E1C1D89A200E99945 /* CHSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSBaseViewController.swift; sourceTree = "<group>"; };
 		21F412241C1D933B00E99945 /* CHSGuestLogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSGuestLogInView.swift; sourceTree = "<group>"; };
+		21F535141C1EA10B00FBC14B /* CHSLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSLogInViewController.swift; sourceTree = "<group>"; };
+		21F535161C1F03DD00FBC14B /* CHSAccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSAccountInfo.swift; sourceTree = "<group>"; };
+		21F6A32F1C1FC2F600AC2CDE /* CHSUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSUserAccountViewModel.swift; sourceTree = "<group>"; };
+		B20E8F31314D33E5115C176F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01B963E578A7D498ECC4D2A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E23ED84B4D9AB27DC1FD4C41 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0CE2E3044EE5B0E01942A5 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +106,8 @@
 				217C91011C1C477B00F65E70 /* weiboCopyTests */,
 				217C910C1C1C477B00F65E70 /* weiboCopyUITests */,
 				217C90EB1C1C477B00F65E70 /* Products */,
+				545029DCF3103302864107CD /* Pods */,
+				5FEF7334C92F672161C15F59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +158,14 @@
 			path = GuestLogInView;
 			sourceTree = "<group>";
 		};
+		21F535131C1EA0CE00FBC14B /* oAuth */ = {
+			isa = PBXGroup;
+			children = (
+				21F535141C1EA10B00FBC14B /* CHSLogInViewController.swift */,
+			);
+			path = oAuth;
+			sourceTree = "<group>";
+		};
 		21F7C2521C1C67E1006A11CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +180,7 @@
 		21F7C2531C1C67E1006A11CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				21F535161C1F03DD00FBC14B /* CHSAccountInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +188,7 @@
 		21F7C2541C1C67E1006A11CB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				21F535131C1EA0CE00FBC14B /* oAuth */,
 				21F7C2571C1C67E1006A11CB /* Main */,
 				21F7C2561C1C67E1006A11CB /* Home */,
 				21F7C2551C1C67E1006A11CB /* Discovery */,
@@ -230,8 +253,26 @@
 		21F7C25B1C1C67E1006A11CB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				21F6A32F1C1FC2F600AC2CDE /* CHSUserAccountViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		545029DCF3103302864107CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E23ED84B4D9AB27DC1FD4C41 /* Pods.debug.xcconfig */,
+				E01B963E578A7D498ECC4D2A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FEF7334C92F672161C15F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20E8F31314D33E5115C176F /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 217C91121C1C477B00F65E70 /* Build configuration list for PBXNativeTarget "weiboCopy" */;
 			buildPhases = (
+				D9AD6F4DD7FCE90EDC8AC6DD /* Check Pods Manifest.lock */,
 				217C90E61C1C477B00F65E70 /* Sources */,
 				217C90E71C1C477B00F65E70 /* Frameworks */,
 				217C90E81C1C477B00F65E70 /* Resources */,
+				71E54E1A76E1F30E6A3B194D /* Embed Pods Frameworks */,
+				E988BC7E2B21A31A6BDB7671 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,6 +403,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71E54E1A76E1F30E6A3B194D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9AD6F4DD7FCE90EDC8AC6DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E988BC7E2B21A31A6BDB7671 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		217C90E61C1C477B00F65E70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -372,6 +464,9 @@
 				21F4121F1C1D89A200E99945 /* CHSBaseViewController.swift in Sources */,
 				21F26CE21C1C79B1000C22E2 /* CHSTabBar.swift in Sources */,
 				217C90EE1C1C477B00F65E70 /* AppDelegate.swift in Sources */,
+				21F535171C1F03DD00FBC14B /* CHSAccountInfo.swift in Sources */,
+				21F535151C1EA10B00FBC14B /* CHSLogInViewController.swift in Sources */,
+				21F6A3301C1FC2F600AC2CDE /* CHSUserAccountViewModel.swift in Sources */,
 				21F26CE01C1C72A1000C22E2 /* CHSTProfileController.swift in Sources */,
 				21F26CDE1C1C7294000C22E2 /* CHSTMessageController.swift in Sources */,
 				21F26CE41C1C7CC5000C22E2 /* common.swift in Sources */,
@@ -495,6 +590,7 @@
 		};
 		217C91131C1C477B00F65E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23ED84B4D9AB27DC1FD4C41 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -509,6 +605,7 @@
 		};
 		217C91141C1C477B00F65E70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01B963E578A7D498ECC4D2A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

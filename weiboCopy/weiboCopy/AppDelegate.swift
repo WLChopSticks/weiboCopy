@@ -24,8 +24,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor.whiteColor()
         window?.makeKeyAndVisible()
         
+        //load user account
+//        let account = CHSAccountInfo.loadUserData()
+//        print(account?.name)
+        CHSAccountInfo.loadUserData()
+        setThemeColor()
         
         return true
+    }
+    
+    
+    //set the theme color
+    func setThemeColor() {
+        UINavigationBar.appearance().tintColor = UIColor.orangeColor()
+        UITabBar.appearance().tintColor = UIColor.orangeColor()
     }
 
     func applicationWillResignActive(application: UIApplication) {
